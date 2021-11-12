@@ -77,6 +77,7 @@ Download above dependencies
  ```
  npm run dev
  ```
+ Additional: to get rid of any additional warnings use ``` npm audit --fix force```
 
 Open [http://localhost:3000](http://localhost.000) to view it in browser
 
