@@ -9,6 +9,9 @@ class Dashboard extends Component {
   };
 render() {
     const { user } = this.props.auth;
+    console.log("Into the Dashboad");
+    console.log(this.props);
+    console.log(user.role);
 return (
       <div style={{ height: "75vh" }} className="container valign-wrapper">
         <div className="row">
@@ -16,8 +19,15 @@ return (
             <h4>
               <b>Hey there,</b> {user.name.split(" ")[0]}
               <p className="flow-text grey-text text-darken-1">
-                You are logged into a full-stack{" "}
-                <span style={{ fontFamily: "monospace" }}>MERN</span> app 👏
+                You are logged into the{" "}
+                <span style={{ fontFamily: "monospace" }}>SunDevil Soccer Tournament</span> dashboard 👏
+              </p>
+              <p className="flow-text grey-text text-darken-1">
+                You are:
+                {user.name == "kartavya" && <span> Tournament Director</span>}
+                {user.name == "Purna" && <span> Field Director</span>}
+                {user.name == "Bhavana" && <span> Volunteer Director</span>}
+                {user.name == "Hameeda" && <span> Referee Director</span>}
               </p>
             </h4>
             <button

@@ -1,12 +1,11 @@
-import React, { Component } from "react";
-import './App.css';
-//import background from "./background.jpeg"; style={{ backgroundImage: `url(${background})` }}
+import React from "react";
+//import './App.css';
+import background from "./background.jpeg"; 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
 import { setCurrentUser, logoutUser } from "./actions/authActions";
 
-import Navbar from "./components/layout/Navbar";
 import Landing from "./components/layout/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
@@ -15,19 +14,19 @@ import Dashboard from "./components/dashboard/Dashboard";
 
 import { Provider } from "react-redux";
 import store from "./store";
+import { render } from "react-dom";
+import Header from "./components/layout/Header";
+import Navbar from './components/Navbar';
 
-// function App() {
-//   return (
-//     <Router>
-//       <div className="App">
-//         <Navbar />
-//         <Route exact path="/" component={Landing} />
-//         <Route exact path="/register" component={Register} />
-//         <Route exact path="/login" component={Login} />
-//       </div>
-//     </Router>
-//   );
-// }
+import Home from './pages';
+//import Home from './pages/home';
+import ApplyToTournament from './pages/apply';
+import Scores from './pages/scores';
+import Teams from './pages/teamsandschedules';
+import Maps from './pages/map';
+import FAQ from './pages/faq';
+
+
 
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
@@ -48,24 +47,52 @@ if (localStorage.jwtToken) {
   }
 }
 
-class App extends Component {
-  render() {
-    return (
-      <Provider store={store}>
-        <Router>
-          <div className="App">
-            <Navbar />
-            <Route exact path="/" component={Landing} />
-            <Route exact path="/register" component={Register} />
-            <Route exact path="/login" component={Login} />
+// class App extends Component {
+//   render() {
+//     return (
+//       <Provider store={store}>
+//         <Router>
+//           <div className="App" style={{ backgroundImage: `url(${background})` }}>
+//             <Navbar />
+//             <Route exact path="/" component={Landing} />
+//             <Route exact path="/register" component={Register} />
+//             <Route exact path="/login" component={Login} />
+//             <Switch>
+//               <PrivateRoute exact path="/dashboard" component={Dashboard} />
+//             </Switch>
+//           </div>
+//         </Router>
+//       </Provider>
+//     );
+//   }
+// }
+
+//<h1> Playing with React Component!</h1>
+
+
+
+function App() {
+  return (
+    <Provider store={store}>
+    <Router>
+    <div className="App" style={{ backgroundImage: `url(${background})` }}>
+          <Header />
+          <Navbar />          
             <Switch>
-              <PrivateRoute exact path="/dashboard" component={Dashboard} />
-            </Switch>
-          </div>
-        </Router>
-      </Provider>
-    );
-  }
+            <Route path='/' exact component={Home} />
+            <Route path='/apply' component={ApplyToTournament} />
+            <Route path='/teamsandschedules' component={Teams} />
+            <Route path='/scores' component={Scores} />
+            <Route path='/map' component={Maps} />
+            <Route path='/faq' component={FAQ} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/register" component={Register} />
+            <PrivateRoute exact path="/dashboard" component={Dashboard} />
+            </Switch>    
+            </div>      
+    </Router>
+    </Provider>    
+  )
 }
 
 export default App;

@@ -66,8 +66,7 @@ const email = req.body.email;
     }
 
     bcrypt.compare(password, user.password).then(isMatch => {
-      if (isMatch) {
-        
+      if (isMatch) {        
         const payload = {
           id: user.id,
           name: user.name

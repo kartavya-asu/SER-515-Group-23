@@ -14,6 +14,13 @@ const UserSchema = new Schema({
         type: String,
         required: true
     },
+    roles: {
+        type: [{
+            type: String,
+            enum: ['user', 'tournament-director','referee-director','team-director','field-director','volunteer-director']
+        }],
+        default: ['user']
+    },
     date: {
         type: Date,
         default: Date.now
