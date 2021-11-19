@@ -70,6 +70,9 @@ Download above dependencies
 4. Install the following dependencies in ./client directory.
 ```bash
    npm i axios classnames jwt-decode react-redux react-router-dom redux redux-thunk
+   npm i react-icons
+   npm i react-nfl-logos --force 
+   npm i styled-components
 ```
  
 5. cd .. back to the main directory and run the following command.
