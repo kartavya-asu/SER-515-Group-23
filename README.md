@@ -1,6 +1,6 @@
 # SER-515-Group-23
 
-# SunDevil Soccer Tournament
+# ASU Sparky Soccer Tournament
  
 ## Overview
 A centralized system to organize, schedule and manage a soccer tournament. This system is capable of handling various aspects of resource management, scheduling of tournaments, and sharing relevant updates pertaining to the tournament.
