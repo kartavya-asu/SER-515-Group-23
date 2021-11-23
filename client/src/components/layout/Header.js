@@ -22,7 +22,7 @@ const Header = () => {
                                        fontFamily: "monospace"
                                    }}
                                    className="col s5 brand-logo center black-text">
-                                   <i className="material-icons"></i>Soccer Tournament</Link>                
+                                   <i className="material-icons"></i>ASU Sparky Soccer Tournament</Link>                
                        </div>
                    </nav>
                    </div>

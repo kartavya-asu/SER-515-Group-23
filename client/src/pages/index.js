@@ -8,7 +8,7 @@ return (
                     <div className="col s12 center-align">
                         <h4>
                             <b>Welcome!</b> to {" "}
-                            <span style={{ fontFamily: "monospace" }}>SunDevil Premier League</span>
+                            <span style={{ fontFamily: "monospace" }}>ASU Sparky Soccer Tournament</span>
                         </h4>
                         <p className="flow-text grey-text text-darken-1">
                             Join the SunDevil Family
