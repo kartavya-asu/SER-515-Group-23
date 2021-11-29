@@ -37,10 +37,11 @@ const Navbar = () => {
             FAQ
           </NavLink>
         </NavMenu>
-        <NavLink to="/login">Sign In</NavLink>
       </Nav>
     </React.Fragment>
   );
 };
 
 export default Navbar;
+
+{/* <NavLink to="/login">Sign In</NavLink> */}

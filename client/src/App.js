@@ -72,7 +72,10 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <div className="App" style={{ backgroundImage: `url(${background})` }}>
+        <div className="App" 
+          style={{ 
+            backgroundImage: `url(${background})`,
+            backgroundRepeat: `no-repeat` }}>
           <Header />
           <Navbar />
           <Switch>
