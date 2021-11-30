@@ -94,4 +94,26 @@ const email = req.body.email;
   });
 });  
 
+router.get('/scores',function(req,res,next){
+    Scores.find({}).then(function(scores){
+        res.send(scores);
+    }).catch(next);
+});
+
+router.get('/getScore/:id',function(req,res,next){
+    Scores.find({category: req.params.id}).then(function(scores){
+        res.send(scores);
+
+    }).catch(next);
+});
+
+// add a new student to database
+router.post('/scores',function(req,res,next){
+    Scores.create(req.body).then(function(sycores){
+        res.send(scores);
+    }).catch(next);
+});
+
+
+
 module.exports = router;
