@@ -86,9 +86,22 @@ const data = {
 const styles ={
 	display:'flex',
 	justifyContent:'center',
+	titleTextColor : "purple",
+	titleTextSize : '30px',
+	rowTitleColor: 'black',
+	rowTitleTextSize: 'medium',
+	rowContentColor: "grey",
+	rowContentTextSize: '15px',
+	rowContentPaddingTop: '10px',
+	rowContentPaddingBottom: '10px',
+	rowContentPaddingLeft: '10px',
+	rowContentPaddingRight: '10px',
 	alignItems:'Top',
-	titleTextcolor: "black",
-	rowTitlecolor: "blue"
+	//transitionDuration: "ls",
+	timingFunc: "ease",
+	bgColor: 'white',
+	margin: '10px',
+	arrowColor: "grey"
 }
 
 const config = {
