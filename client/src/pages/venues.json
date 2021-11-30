@@ -1,0 +1,251 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+    },
+    "features": [
+      {
+        "properties": {
+          "PARK_ID": 960,
+          "NAME": "Sun Stadium",
+          "DESCRIPTIO": "Venue 1"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -111.93360485318142, 33.42635244206248]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 1219,
+          "NAME": "Devil Ground",
+          "DESCRIPTIO": "Venue 2"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -111.93023701329602,33.42584324113618]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 1157,
+          "NAME": "Sparky Stadium",
+          "DESCRIPTIO": "Venue 3"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.92732065919238,33.42648483381409]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 9,
+          "NAME": "Phoenix Play",
+          "DESCRIPTIO": "Venue 4"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.92729625455551,33.42822627575029]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 1160,
+          "NAME": "Cardinals Stadium",
+          "DESCRIPTIO": "Venue 5"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.92529507433375,33.42590434540502]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 1693,
+          "NAME": "Noble Ground",
+          "DESCRIPTIO": "Venue 6"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.92745009472617,33.42534627455258]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 1717,
+          "NAME": "Hayden PlayGround",
+          "DESCRIPTIO": "Venue 7"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.92686766902976,33.424788163735215]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 137,
+          "NAME": "POLY Stadium",
+          "DESCRIPTIO": "Venue 8"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.92494120709941,33.42428506774775]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 1133,
+          "NAME": "West Campus Stadium",
+          "DESCRIPTIO": "Venue 9"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.92309865705386,33.42555808730417]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 657,
+          "NAME": "Downtown Stadium",
+          "DESCRIPTIO": "Venue 10"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.92701560126841,33.42276760402971]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 653,
+          "NAME": "IRA Stadiun",
+          "DESCRIPTIO": "Venue 11"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.93460372072018,33.421730798269735]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 812,
+          "NAME": "Gold Ground",
+          "DESCRIPTIO": "Venue 12"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.93353411959185,33.421434838093184]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 2457,
+          "NAME": "Diamond Park",
+          "DESCRIPTIO": "Venue 13"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.9218050161508,33.424696114611926]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 430,
+          "NAME": "Yellow Stadium",
+          "DESCRIPTIO": "Venue 14"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.93055852643785,33.41705858147581]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 989,
+          "NAME": "Goldwater Stadium",
+          "DESCRIPTIO": "Venue 15"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.93254403666127,33.4171018146721]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 1334,
+          "NAME": "Constance Bay Park",
+          "DESCRIPTIO": "Venue 16"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.93689489385869,33.41684241509759]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 923,
+          "NAME": "Tempe Ground",
+          "DESCRIPTIO": "Venue 17"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.9274853018919,33.415343646796494]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 762,
+          "NAME": "Thrill Ground",
+          "DESCRIPTIO": "Venue 18"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.93534101628619,33.41917698342207]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 52,
+          "NAME": "LORDS Stadium",
+          "DESCRIPTIO": "Venue 19"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.93934656735071,33.415213944452084]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 2488,
+          "NAME": "Eden Gradens",
+          "DESCRIPTIO": "Venue 20"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.93578991423391,33.431958353012526]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 330,
+          "NAME": "The OVAL",
+          "DESCRIPTIO": "Venue 21"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.93932930203795,33.43182867551336]
+        }
+      },
+      {
+        "properties": {
+          "PARK_ID": 693,
+          "NAME": "MCG",
+          "DESCRIPTIO": "Venue 22"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.94062420001501,33.4300563969391]
+        }
+      }
+    ]
+  }
