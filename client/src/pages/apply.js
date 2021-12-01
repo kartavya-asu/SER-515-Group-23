@@ -51,7 +51,7 @@ const ApplyToTournament = () => {
 			height: '100vh'
 		}}>
 		<Container>
-			<h1>Apply Here!</h1>
+				<h1>Apply Here!</h1>
 			<h2>_____________________________________________________</h2>
 
 			<h4>TEAM APPLICATION</h4>

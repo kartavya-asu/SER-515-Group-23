@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Scores = () => {
+const Referees = () => {
 return (
 	<div
 	style={{
@@ -10,9 +10,9 @@ return (
 		height: '100vh'
 	}}
 	>
-	<h1>Welcome to the SunDevil Tournament Score Board!</h1>
+	<h4>Welcome to the SunDevil Tournament Referee Registration Form!</h4>
 	</div>
 );
 };
 
-export default Scores;
+export default Referees;

@@ -22,10 +22,10 @@ const Navbar = () => {
             Apply
           </NavLink>
           <NavLink to="/teamsandschedules" activeStyle>
-            Schedules
+            Schedules & Scores
           </NavLink>
-          <NavLink to="/scores" activeStyle>
-            Scores
+          <NavLink to="/referees" activeStyle>
+            Referees
           </NavLink>
           <NavLink to="/map" activeStyle>
             Maps

@@ -10,7 +10,7 @@ return (
 		height: '100vh'
 	}}
 	>
-	<h1>Here you will find Info related to Teams and their Schedules</h1>
+	<h4>Here you will find Info related to Teams and their Schedules</h4>
 	</div>
 );
 };

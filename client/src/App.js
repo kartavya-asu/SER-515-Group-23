@@ -21,7 +21,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages";
 //import Home from './pages/home';
 import ApplyToTournament from "./pages/apply";
-import Scores from "./pages/scores";
+import Referees from "./pages/referees";
 import Teams from "./pages/teamsandschedules";
 import Maps from "./pages/map";
 import FAQ from "./pages/faq";
@@ -82,7 +82,7 @@ function App() {
             <Route path="/" exact component={Home} />
             <Route path="/apply" component={ApplyToTournament} />
             <Route path="/teamsandschedules" component={Teams} />
-            <Route path="/scores" component={Scores} />
+            <Route path="/referees" component={Referees} />
             <Route path="/map" component={Maps} />
             <Route path="/sponsors" component={Sponsors} />
             <Route path="/faq" component={FAQ} />
