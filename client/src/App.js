@@ -74,8 +74,9 @@ function App() {
       <Router>
         <div className="App" 
           style={{ 
-            backgroundImage: `url(${background})`,
-            backgroundRepeat: `no-repeat` }}>
+            // backgroundImage: `url(${background})`,
+            // backgroundRepeat: `no-repeat` 
+          }}>
           <Header />
           <Navbar />
           <Switch>

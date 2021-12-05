@@ -1,11 +1,15 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {Container, List} from 'reactstrap'; 
 
-
 const Home = () => {
+    const [tournamentDetails, setTournamentDetails] = useState({})
+    useEffect(() => {
+        setTournamentDetails(JSON.parse(localStorage.getItem("tournamentDetails")||'{}'));
+        console.log(JSON.parse(localStorage.getItem("tournamentDetails")||'{}'))
+	},[]);
 return (
-	<div style={{ height: "75vh" }} className="container valign-wrapper">
-                <div className="row">
+	<div style={{ height: "75vh", opacity: '0.85' }} className="container valign-wrapper">
+                <div className="row" style={{padding:'16px'}}>
                     <div className="col s12 center-align">
                         <h4>
                             <b>Welcome!</b> to {" "}
@@ -16,19 +20,19 @@ return (
                         </p>
                         <br />
                     </div>
-                    <Container style={{backgroundColor: "WHITE"}}>
+                    <Container style={{backgroundColor: "WHITE", borderRadius: '16px', padding: '0 16px 16px 16px'}}>
                     <List type="unstyled">
-                    <p><b>WHEN:</b>	Memorial Day Weekend, January 29-30, 2022</p>
-                    <p><b>WHERE:</b> Tempe, Arizona </p>
+                    <p><b>WHEN:</b>	{tournamentDetails?.when}</p>
+                    <p><b>WHERE:</b> {tournamentDetails?.where}</p>
                     <p><b>FEES:</b>
                     <ul>
-                    <li>u9/u10 $625</li>
-                    <li>u10/u11/u12 $675</li>
-                    <li>u12/u13/u14 $725</li>
-                    <li>u15/u16/u17/u18/u19 $775</li>
+                    <li>uTen Fees - {tournamentDetails?.uTenFees}</li>
+                    <li>uTwleve Fees - {tournamentDetails?.uTwelveFees}</li>
+                    <li>uFourteen Fees - {tournamentDetails?.uFourteenFees}</li>
+                    <li>uEighteen Fees - {tournamentDetails?.uEighteenFees}</li>
                     </ul>
                     </p>
-                    <p><b>APPLICATION DEADLINE:</b> December 15, 2021</p>
+                    <p><b>APPLICATION DEADLINE:</b>{tournamentDetails?.deadline}</p>
                     </List>
                     </Container>
                 </div>
